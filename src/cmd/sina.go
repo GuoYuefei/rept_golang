@@ -140,7 +140,6 @@ func useFlag(mark Mark, a *string) {
 	case fileName:
 		flag.StringVar(a, "d", "default.json", "输入你希望保存到的文件名")
 	}
-
 }
 
 func StoreJson(a interface{}, storeFile string) {
